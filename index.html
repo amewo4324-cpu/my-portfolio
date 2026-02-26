@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>የአማረ ፖርትፎሊዮ</title>
+    <style>
+        /* CSS - የድረ-ገጹ ውበት */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+            padding: 60px 20px;
+       
+
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #d35400;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="IMG_20260123_220038_145.jpg" alt="Amare" class="profile-img">
+        <h1>ሰላም! እኔ አማረ እባላለሁ</h1>
+        <p>የ ICT Level 3 ተማሪ | Web Developer</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>ስለ እኔ</h2>
+            <p>በወገልጤና TVET ኮሌጅ የ ICT ተማሪ ነኝ። በስልኬ ብቻ ድረ-ገጾችን እና አፕሊኬሽኖችን መሥራት እወዳለሁ።</p>
+        </div>
+
+        <div class="card">
+            <h2>የእኔ ክህሎቶች</h2>
+            <p>HTML5, CSS3, JavaScript, Database Administration</p>
+        </div>
+        <div class="card">
+            <h2>የእኔ ፕሮጀክቶች</h2>
+            <ul style="list-style: none; padding: 0; text-align: left; display: inline-block;">
+                <li>✅ የመጀመሪያዬ የ HTML ድረ-ገጽ</li>
+                <li>✅ የጃቫ ስክሪፕት አልጀብራ ካልኩሌተር</li>
+                <li>✅ የወገልጤና TVET መረጃ ቋት (Database)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>በሶሻል ሚዲያ ያግኙኝ</h2>
+            <div style="margin-top: 10px;">
+                <a href="https://t.me/@AmareW16" style="text-decoration: none; color: #0088cc; font-weight: bold; margin: 0 10px;">Telegram</a> |
+                <a href="https://facebook.com/your_profile" style="text-decoration: none; color: #3b5998; font-weight: bold; margin: 0 10px;">Facebook</a> |
+                <a href="https://github.com/your_github" style="text-decoration: none; color: #333; font-weight: bold; margin: 0 10px;">GitHub</a>
+            </div>
+        </div>
+
+        <button onclick="contactMe()">ያግኙኝ</button>
+    </div>
+
+    <script>
+        /* JavaScript - የድረ-ገጹ ተግባር */
+        function contactMe() {
+            alert("ለማነጋገር ስለፈለጉ እናመሰግናለን! በቅርቡ በቴሌግራም ያገኙኛል።");
+        }
+    </script>
+
+</body>
+</html>
